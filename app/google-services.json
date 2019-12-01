@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "147432029933",
+    "firebase_url": "https://tds-app-2ea63.firebaseio.com",
+    "project_id": "tds-app-2ea63",
+    "storage_bucket": "tds-app-2ea63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147432029933:android:7f33b69808df5da6",
+        "android_client_info": {
+          "package_name": "rs.ac.singidunum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147432029933-c6sqhm9tkc5330u98ncgs0ef0ic9ssrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rs.ac.singidunum",
+            "certificate_hash": "15685b7eec3cf8281a6102131653426fdb63125a"
+          }
+        },
+        {
+          "client_id": "147432029933-hpsitdveaics3k68oej6bn5qv5i5g20n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYElS5w51CDGHvyS2BrIKnWY7c_slOJ1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147432029933-hpsitdveaics3k68oej6bn5qv5i5g20n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

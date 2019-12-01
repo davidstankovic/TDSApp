@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/backdesign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Email:"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/btndesign"
+            android:padding="13dp"
+            android:id="@+id/email_reg"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Password:"
+            android:background="@drawable/btndesign"
+            android:padding="13dp"
+            android:inputType="textPassword"
+            android:id="@+id/password_reg"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sign Up"
+            android:id="@+id/btnsignup_reg"
+            android:background="@drawable/btndesign"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="OR"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sign In"
+            android:id="@+id/btnsignin_reg"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:background="@drawable/signupbtn"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
